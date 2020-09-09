@@ -8,6 +8,8 @@ The csv dataset is over 10 GB.
 ## Pipeline
 The Pipeline use `Google Cloud Platform` services to process the dataset in efficient and scalable way!
 
+![Data Pipeline](docs/data_pipeline.png)
+
 The pipeline consists of:
 - Two `Cloud Storage` buckets
     - Processing Bucket which will trigger the start of the pipeline
