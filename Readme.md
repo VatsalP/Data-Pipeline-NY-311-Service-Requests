@@ -6,7 +6,7 @@
 The csv dataset is over 10 GB.
 
 ## Pipeline
-The Pipeline use `Google Cloud Platform` services to process the dataset in efficient and scalable way!
+The Pipeline uses `Google Cloud Platform` services to process the dataset in efficient and scalable way!
 
 ![Data Pipeline](docs/data_pipeline.png)
 
@@ -44,3 +44,8 @@ input_field_names -> unique_key,created_date,closed_date,agency,agency_name,comp
 
 Just drop csv dataset in the Processing bucket and we are good to go!
 You can use the resulting BigQuery table to gain valuable insights from the 311 service requests about New York City like what is the Noisest Residential street in New York City. (it is EAST 231 STREET according to the complaints recieved)
+
+You can also connect BigQuery as source on DataStudio and make an interactive dashboard. PDF of the one I [made](docs/311_Non_Emergency_Complaints_Data_for_New_York_City.pdf).
+
+One of the page from the dashboard, look at the spike towards the end - likely due to COVID and more people staying at home.
+![data_studio](docs/data_studio.png)
